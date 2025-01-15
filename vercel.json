@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/api",
-      "dest": "src/index.js"
+      "src": "/api/module",
+      "dest": "/src/module.js"
+    },
+    {
+      "src": "/api/express",
+      "dest": "/src/express.js"
     }
   ]
 }
