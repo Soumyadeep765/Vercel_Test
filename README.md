@@ -10,11 +10,12 @@ This project demonstrates how to set up two different API routes on Vercel: one 
 ## Project Structure
 ```
 src/
-├── express.js   # Express API
-├── module.js    # Module exports API
-package.json     # Dependencies and scripts
-vercel.json      # Vercel configuration for routing
-readme.md
+├── express.js      # Express API
+├── module.js       # Module exports API
+├── index.js        # Main entry point for routing
+package.json        # Dependencies and scripts
+vercel.json         # Vercel configuration for routing
+readme.md           # Project description
 ```
 
 ## API Routes
@@ -54,6 +55,10 @@ The `vercel.json` file defines the routing for the two APIs:
     {
       "src": "/api/express",
       "dest": "/src/express.js"
+    },
+    {
+      "src": "/",
+      "dest": "/src/main.js"
     }
   ]
 }
@@ -61,5 +66,7 @@ The `vercel.json` file defines the routing for the two APIs:
 ### Key Updates:
 - **API Routes** section clearly defines the two routes (`/api/module` and `/api/express`).
 - Each route is described in detail, including the file that handles the route and the type of response users can expect.
+
+- and `/` for main route that is default utl route 
 
 This simple structure should make it easy to understand what each route does.
