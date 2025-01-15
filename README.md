@@ -14,7 +14,8 @@ src/
 ├── module.js    # Module exports API
 package.json     # Dependencies and scripts
 vercel.json      # Vercel configuration for routing
-readme.md```
+readme.md
+```
 
 ## API Routes
 
