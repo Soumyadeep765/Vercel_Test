@@ -27,6 +27,12 @@ readme.md
    - **Description**: This route is handled by the `express.js` file. It uses an Express server to manage requests and responses.
    - **Response**: Returns a JSON message like `{"message": "Hello from Express on Vercel!"}`.
 
+
+## Examples 
+
+ -**express** : https://vercel-test-xi-virid.vercel.app/api/express
+ - **module** : https://vercel-test-xi-virid.vercel.app/api/module 
+
 ## Vercel Configuration
 
 The `vercel.json` file defines the routing for the two APIs:
