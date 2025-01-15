@@ -1,4 +1,4 @@
-# Vercel Demo Project
+# Vercel Demo node js Project
 
 This project demonstrates how to set up two different API routes on Vercel: one using **Express** and another using **module exports**. 
 
@@ -67,6 +67,6 @@ The `vercel.json` file defines the routing for the two APIs:
 - **API Routes** section clearly defines the two routes (`/api/module` and `/api/express`).
 - Each route is described in detail, including the file that handles the route and the type of response users can expect.
 
-- and `/` for main route that is default utl route 
+- and `/` for main route that is default url route 
 
 This simple structure should make it easy to understand what each route does.
